@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Sta Giocando a Naples, Italy", "Sta Lavorando al Bar Basico"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'dnd', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
